@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - a Program that prints line size of various computer types
- * Return 0 (Success)
- *i/
+* main - a Program that prints line size of various computer types
+* Return 0 (Success)
+*/
 int main(void)
 {
 	char a;
