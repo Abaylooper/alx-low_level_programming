@@ -1,5 +1,5 @@
 /**
- * _Strlen - is the function that return the length of string
+ * _strlen - is the function that return the length of string
  * @s: is the string whose length is required
  * Return: the length of the string
  */
