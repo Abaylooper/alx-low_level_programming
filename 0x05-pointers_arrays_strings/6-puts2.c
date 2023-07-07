@@ -15,7 +15,8 @@ void puts2(char *str)
 	{
 		if (str[i] == '\\')
 			break;
-		_putchar(str[i]);
+		else
+			_putchar(str[i]);
 	}
 	_putchar('\n');
 }
