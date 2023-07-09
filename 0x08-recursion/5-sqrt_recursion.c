@@ -26,9 +26,14 @@ int _sqrt_recursion(int n)
 
 int _sqrt_helper(long int n, long int i)
 {
-	if (i * i > n)
-		return (_sqrt_helper(n, i - 1));
+	if (i == n)
+		i = i / 2;
+
 	if (i * i == n)
 		return (i);
+	if (i * i > n)
+	{
+		return (_sqrt_helper(n, i - 1));
+	}
 	return (-1);
 }
